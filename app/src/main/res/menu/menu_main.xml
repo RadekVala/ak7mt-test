@@ -11,4 +11,10 @@
         android:orderInCategory="101"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_second_activity"
+        android:orderInCategory="102"
+        android:title="@string/activity_go_to_second_text"
+        app:showAsAction="never" />
 </menu>

@@ -1,5 +1,7 @@
 package cz.utb.fai.demoapp
 
+
+
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -52,6 +54,11 @@ class MainActivity : AppCompatActivity() {
             R.id.action_call_me -> {
                 val phone = "+34666777888"
                 val intent = Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null))
+                startActivity(intent)
+                return true
+            }
+            R.id.action_second_activity -> {
+                val intent = Intent(this, SecondActivity::class.java)
                 startActivity(intent)
                 return true
             }
