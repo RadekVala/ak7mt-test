@@ -12,4 +12,6 @@
     <string name="call_me">Call me</string>
     <string name="activity_go_to_second_text">Go to second activity</string>
     <string name="this_is_my_second_activity">This is my second activity</string>
+    <string name="btn_clicker_text">Clicker</string>
+    <string name="tv_count_text">0</string>
 </resources>
